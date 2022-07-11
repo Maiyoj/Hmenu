@@ -1,0 +1,25 @@
+.menu{
+display: flex;
+justify-content: space-between;
+}
+
+#hmenu{
+    display: none;
+}
+
+
+#xmenu{
+    display: none;
+}
+
+@media only screen and (max-width: 360px){
+    .menu{
+        display: none;
+
+    }
+    #hmenu{
+        display: block;
+    }
+
+
+}
